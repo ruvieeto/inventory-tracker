@@ -18,7 +18,7 @@ You will see a loading screen like this indicating the server is waking up:
 <img src="https://user-images.githubusercontent.com/26422098/169159769-cbfc4ced-32e0-40e9-ac51-91c11e9f8da2.png" alt="repl-waking-up" width="400">
 
 The hosted application can be found here:
-[Replit Hosted Application](https://replit.com/@ruvieeto/inventory-tracker)
+[Replit Hosted Application](https://replit.com/@ruvieeto/shopify-inventory-tracker)
 
 
 ## Installation

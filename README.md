@@ -29,7 +29,7 @@ Clone the repo:
 
 ```bash
 git clone https://github.com/ruvieeto/inventory-tracker.git
-cd inventory-tracker-main
+cd inventory-tracker
 ```
 
 Install the dependencies:
@@ -317,4 +317,4 @@ To improve the application, I would do the following:
 
 **Feature Improvements:**
 - **Location Coordinates:** In a real world setting, a user may want to create a shipment (containing multiple products) that is to be sent to a customer. It would be best to fulfill the order from the closest warehouse to the customer. The app should store the latitude and longitude of the warehouse location upon the creation/update of the location (using a background job that calls an external Geocoding API). That way, an algorithm could be written, that automatically identifies the closest warehouse to fulfill the customer's order from based on the customer's shipping address. If the items are not all in stock, the order could be fulfilled from multiple locations.
-- **Country and currency codes:** The countries that are allowed for are of an enumerated type but are limited to only 4 countries. In the future, the application could be extended to accept all the two-letter ISO 3166-1 alpha-2 country codes. Similarly, a complete list of the 3-letter ISO 4217 could be accepted for currency.
+- **Country and currency codes:** The countries that are allowed for are of an enumerated type but are limited to only 4 countries. In the future, the application could be extended to accept all the two-letter ISO 3166-1 alpha-2 country codes. Similarly, a complete list of the 3-letter ISO 4217 currency codes could be accepted for currency.

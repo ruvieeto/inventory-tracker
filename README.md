@@ -1,8 +1,6 @@
-# Inventory Tracker - Challenge Fall 2022
+# Inventory Tracker
 
 Inventory Tracking Web Application for a logistics company.
-
-This application is my submission for the [Developer Intern Challange](https://docs.google.com/document/d/1PoxpoaJymXmFB3iCMhGL6js-ibht7GO_DkCF2elCySU/)
 
 The application allows a user to create products and warehouse locations for their business. A user is then able to create inventory for products and assign them to specific locations. To aid the user in accurately tracking their inventory across all their warehouse locations, the app creates an "adjustment record" any time inventory quantity changes. With this, a user can easily see the event history of the inventory for any product at any location.
 
